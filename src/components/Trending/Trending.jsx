@@ -12,7 +12,6 @@ const Trending = () => {
       try {
         const data = await API.fetchTrend();
         setItems(data.results);
-        console.log(data);
       } catch (error) {
         setError(error.message || 'Something wrong! Try later!');
       }

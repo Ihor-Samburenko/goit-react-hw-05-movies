@@ -1,4 +1,5 @@
 import scss from '../ListMovie/ListMovie.module.scss';
+import PropTypes from 'prop-types';
 import { Link, useLocation } from 'react-router-dom';
 
 const ListMovie = ({ movies }) => {
@@ -28,3 +29,7 @@ const ListMovie = ({ movies }) => {
 };
 
 export default ListMovie;
+
+ListMovie.propTypes = {
+  movies: PropTypes.array,
+};

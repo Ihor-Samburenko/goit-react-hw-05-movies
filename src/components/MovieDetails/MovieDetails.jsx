@@ -16,9 +16,6 @@ const MovieDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
-  // const { from } = location.state;
-
-  console.log('Details', location);
 
   useEffect(() => {
     const fetchPost = async () => {

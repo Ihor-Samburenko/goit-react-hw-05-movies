@@ -7,7 +7,7 @@ const MoviesPage = lazy(() => import('Pages/MoviesPage/MoviesPage'));
 const NotFoundPage = lazy(() => import('./NotFoundPage/NotFoundPage'));
 const MovieDetails = lazy(() => import('./MovieDetails/MovieDetails'));
 const CastPage = lazy(() => import('./CastPage/CastPage'));
-const ReviewsPage = lazy(() => import('./ReviewsPage/ReviewsPAge'));
+const ReviewsPage = lazy(() => import('./ReviewsPage/ReviewsPage'));
 
 const UserRoutes = () => {
   return (

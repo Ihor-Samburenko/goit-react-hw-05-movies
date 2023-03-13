@@ -13,7 +13,6 @@ const ReviewsPage = () => {
       try {
         const data = await API.getReviews(id);
         setReviws(data.results);
-        console.log(data.results);
       } catch (error) {
         console.log(error);
       }
